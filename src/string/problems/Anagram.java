@@ -24,7 +24,7 @@ public class Anagram {
 
         if(status) {
 
-            System.out.println(s1 + " and " + s2 + " are anagrams" );
+            System.out.println(s1 + " and " + s2 + " are anagrams");
         } else {
 
             System.out.println(s1 + " and " + s2 + " are not anagrams" );
@@ -36,7 +36,7 @@ public class Anagram {
         //Write a Java Program to check if the two String are Anagram. Two String are called Anagram when there is
         //same character but in different order.For example,"CAT" and "ACT", "ARMY" and "MARY".
 
-        isAnagram("rat","tar");
+         isAnagram("rat","tar");
 
     }
 }
