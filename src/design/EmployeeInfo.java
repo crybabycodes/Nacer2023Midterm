@@ -21,7 +21,7 @@ public class EmployeeInfo  {
 	 * declare few static and final fields and some non-static fields
 	 */
 
-	private String department;
+		private String department;
 
 	/*
 	 * You must implement the logic for below 2 methods and 
@@ -33,13 +33,13 @@ public class EmployeeInfo  {
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
-	public EmployeeInfo(String firstName, String lastName, double salary, int age, String department) {
+		public EmployeeInfo(String firstName, String lastName, double salary, int age, String department) {
 		super();
 		setDepartment(department);
 	}
 
 	public void setDepartment(String department){
-		this.department = department;
+			this.department = department;
 	}
 
 	/*
@@ -100,10 +100,10 @@ public class EmployeeInfo  {
 			return actualDate;
 		}
 
-		public static int whichMonth(String givenMonth) {
-			Months months = Months.valueOf(givenMonth);
-			int date = 0;
-			switch (months) {
+			public static int whichMonth(String givenMonth) {
+				Months months = Months.valueOf(givenMonth);
+				int date = 0;
+				switch (months) {
 				case January:
 					date = 1;
 					break;
