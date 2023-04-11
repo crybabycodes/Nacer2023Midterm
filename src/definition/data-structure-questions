@@ -4,6 +4,7 @@ why do we need data structure?
 A. We need data structure to store organizing information.
 
 What are the various operations that can be performed on different Data Structures?
+
 A. Insertion
    Deletion
    Traversal
@@ -12,6 +13,7 @@ A. Insertion
    Searching
 
 List out the areas in which data structures are applied extensively?
+
 A. 1. Compiler Design
    2. Operating System
    3. Database Management System
@@ -20,6 +22,7 @@ A. 1. Compiler Design
    6. Graphics
    7. Artificial Intelligence
    8. Simulation
+
 what is an Array?
 A. An array is a container object that holds a fixed number of values of a single type.
 
@@ -32,6 +35,7 @@ A. A linked list is a linear data structure where each element is a separate obj
 How is an Array different from Linked List?
 A. In array, each element is independent, no connection with previous element or with its location. In Linked list,
    location or address of elements is stored in the link part of previous element/nod
+
 what is queue?
 A. A queue is designed to have elements inserted at the end of the queue,
    and elements removed from the beginning of the queue.

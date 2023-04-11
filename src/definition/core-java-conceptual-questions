@@ -192,7 +192,7 @@ Explain Java Heap space and Garbage collection?
 A. Java heap space is the area of memory used to store objects instantiated by applications running on the JVM.
 
 Can you guarantee the garbage collection process?
-A. You can not guarantee the garbage collection process because it's always possible that you'll try to allocate more memory than is available.
+A.You can not guarantee the garbage collection process because it's always possible that you'll try to allocate more memory than is available.
 
 What is the difference between stack and heap in Java?
 A. The difference between stack and heap in Java is stack is used to store the order of method execution and local variables, while the heap is used to store
@@ -210,20 +210,25 @@ A. Multithreading in Java is the ability to execute multiple different paths of 
 What is the use of synchronization in Java?
 A. The use of synchronization in Java is to prevent thread interference and memory consistency errors.
 
+
 What is Framework?
 A. Framework are pre-built libraries and modules that provide a set of common functionalities for building applications. Developers can easily integrate it into their projects.
+
 
 What are the testing Framework available in java?
 A. Selenium, JUnit, TestNG and Jenkins.
 
+
 Difference between jUnit and testNG?
 A. The difference between jUnit and testNG is jUnit does not let group testing together but testNG can be grouped together and run parallel.
+
 
 What are the dependencies for this project?
 A.<properties>
           <maven.compiler.target>1.8</maven.compiler.target>
           <maven.compiler.source>1.8</maven.compiler.source>
       </properties>
+
 
 what is dependency injection in java?
 A. Dependency injection in Java is a strategy that is used to separate the creation of dependency objects from the class that needs them.
