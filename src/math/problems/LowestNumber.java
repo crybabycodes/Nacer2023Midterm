@@ -12,12 +12,12 @@ public class LowestNumber {
 		 * Write java solution to find the lowest number from this array.
 		 * Use one of the databases from mysql or mongodb to store and to retrieve.
 		 */
-		int  array[] = new int[]{211,110,99,34,67,89,67,456,321,456,78,90,45,32,56,78,90,54,32,123,67,5,679,54,32,65};
+		int array [] = new int[]{211,110,99,34,67,89,67,456,321,456,78,90,45,32,56,78,90,54,32,123,67,5,679,54,32,65};
 
-		//find lowest number from the array
+		/* find lowest number from the array */
 
 		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
-		List<String> lowestValue = new ArrayList<String>();
+		List<String> lowestValue = new ArrayList<>();
 		try {
 			connectToSqlDB.insertDataFromArrayToSqlTable(array, "tbl_lowestNumber", "column_lowestNumber");
 			lowestValue = connectToSqlDB.readDataBase("tbl_lowestNumber", "column_lowestNumber");
@@ -29,6 +29,15 @@ public class LowestNumber {
 		for(String st:lowestValue){
 			System.out.println(st);
 		}
+		System.out.println();
+
+		int lowestArray = array[0];
+
+		for (int j : array) {
+			if (j < lowestArray)
+				lowestArray = j;
+		}
+		System.out.println("Smallest element of the array is: " + lowestArray);
 	}
 
 }
