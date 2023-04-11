@@ -31,7 +31,7 @@ public class UseQueue {
 		Iterator <String> oops = oopsConcepts.iterator();
 		System.out.print("\nWhile loop Queue: ");
 		while(oops.hasNext()){
-			System.out.print(oops.next()+ " ");
+				System.out.print(oops.next()+ " ");
 		}
 		System.out.println();
 		System.out.print("\nFor loop Queue: ");

@@ -29,7 +29,7 @@ public class UseMap {
 		UseArrayList.space();
 		UseArrayList.space();
 
-		System.out.print("While each loop: ");
+			System.out.print("While each loop: ");
 		while (gameStop.hasNext()){
 			List<String> valuesOfVideoGames = gameStop.next();
 			System.out.print(valuesOfVideoGames +",");

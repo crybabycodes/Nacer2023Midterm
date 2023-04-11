@@ -18,7 +18,7 @@ public static void main(String[] args) {
         map.put(6, "Seattle");
 
         Collection<String> states = map.values();
-                System.out.print("Collection view of States: "+ states);
+           System.out.print("Collection view of States: "+ states);
     }
 
 }

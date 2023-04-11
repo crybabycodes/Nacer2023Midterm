@@ -44,7 +44,7 @@ public class DataReader {
 					stack.push(word);
 					linkedList.add(word);
 				}
-				System.out.println(line);
+					System.out.println(line);
 			}
 			System.out.println();
 			System.out.println("FIFO order from LinkedList: ");

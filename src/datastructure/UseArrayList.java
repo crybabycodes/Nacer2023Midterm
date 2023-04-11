@@ -46,7 +46,7 @@ public class UseArrayList {
 		space();
 		System.out.print("While each loop: ");
 		while(nineTales.hasNext()){
-			System.out.print(nineTales.next()+ ", ");
+				System.out.print(nineTales.next()+ ", ");
 		}
 	}
 }
