@@ -15,8 +15,8 @@ public class Factorial {
 
         System.out.println("Enter a number to give you the factorial number: ");
 
-        Scanner scan = new Scanner(System.in);
-        number = scan.nextInt();
+            Scanner scan = new Scanner(System.in);
+            number = scan.nextInt();
 
         int answer = factorialRecursive(number);
         int answer1 = factorialIterative(number);

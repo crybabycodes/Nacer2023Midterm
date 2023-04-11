@@ -18,9 +18,9 @@ public class PrimeNumber {
 
 		List<Integer> primeNumbers = new ArrayList<>();
 
-		primeNumbers.add(2);
+			primeNumbers.add(2);
 
-		for (int numberToCheck = 3; numberToCheck <= 1000000 ; numberToCheck+=2) {
+			for (int numberToCheck = 3; numberToCheck <= 1000000 ; numberToCheck+=2) {
 
 			boolean isPrime = true;
 
@@ -30,7 +30,7 @@ public class PrimeNumber {
 					break;
 				}
 			}
-			if (isPrime){
+				if (isPrime){
 				primeNumbers.add(numberToCheck);
 			}
 
